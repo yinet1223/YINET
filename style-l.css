@@ -1,0 +1,87 @@
+/* ### 版面設計 ###*/
+
+body{
+	margin: 24px 10px;
+	font-family: Arial,’微軟正黑體‘, sans-serif;
+
+}
+
+
+ #container {
+ 	width: 	960px;
+ 	margin:auto;
+ }
+
+ header{
+ 	margin-bottom: 10PX;
+ 	overflow: hidden;
+ }
+
+ #headerpost{
+ 	margin-bottom: 30PX;
+ 	overflow: hidden;
+ }
+
+ #content:{
+ 	margin-bottom: 30px;
+ 	overflow:hidden;
+ }
+
+footer{
+	margin-bottom: 30PX;
+}
+
+/***細節設計***/
+/***logo***/
+
+
+#banner{
+	float: left;
+}
+
+#topnews h1{
+	margin: 0;
+
+}
+
+
+#oldnews img{
+	vertical-align: bottom;
+	width: 332px
+
+}
+
+
+nav {
+	float: right;
+	font-size: 15pt;
+	font-family: 'Indie Flower', cursive;
+	padding-top: 30px
+
+
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+/*list-style-type:none*/
+
+nav li {
+	list-style-type: none;
+	float: left;
+}
+
+
+nav li a {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-bottom: solid 3px transparent;
+    color: #000000;
+
+
+
